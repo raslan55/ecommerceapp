@@ -4,6 +4,7 @@ export default function Card(props) {
     const {product}=props;
   return (
     <>
+
       <div className="card border-0 rounded-0 shadow">
     <img src={product.image} className="card-img-top rounded-0" alt={product.description}/>
     <div className="card-body mt-3 mb-3">
