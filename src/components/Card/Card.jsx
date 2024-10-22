@@ -12,6 +12,8 @@ export default function Card(props) {
             <div className="col-10">
                 <h6 className="card-title">{product.title}</h6>
                 <p className="card-text">
+
+                    
                     <i className="bi bi-star-fill text-warning"></i>
                     <i className="bi bi-star-fill text-warning"></i>
                     <i className="bi bi-star-fill text-warning"></i>
