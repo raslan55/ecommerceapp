@@ -1,5 +1,11 @@
-img{
-  width: 100%;
+@import "rsuite/dist/rsuite.css";
+
+
+.card-img-top {
+  width: 90%;
   height: 30vh;
   object-fit: cover;
+  padding: 1rem;
+  margin: auto;
+
 }

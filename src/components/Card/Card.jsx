@@ -5,15 +5,13 @@ export default function Card(props) {
   return (
     <>
 
-      <div className="card border-0 rounded-0 shadow">
+    <div className="card border-0 rounded-25 shadow">
     <img src={product.image} className="card-img-top rounded-0" alt={product.description}/>
     <div className="card-body mt-3 mb-3">
         <div className="row">
             <div className="col-10">
                 <h6 className="card-title">{product.title}</h6>
                 <p className="card-text">
-
-                    
                     <i className="bi bi-star-fill text-warning"></i>
                     <i className="bi bi-star-fill text-warning"></i>
                     <i className="bi bi-star-fill text-warning"></i>
